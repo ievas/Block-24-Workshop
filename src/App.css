@@ -26,6 +26,7 @@ ul {
 
 .card {
   padding: 2em;
+  border: 0.03rem solid gray;
 }
 
 .read-the-docs {

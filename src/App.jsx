@@ -27,7 +27,7 @@ function App() {
         <div className="card">
           <h2>{featuredPup.name}</h2>
           <ul>
-            <li><img src={puppyIcon} alt="dog icon"/></li>
+            <li><img src={puppyIcon} alt="dog icon from https://icons8.com/"/></li>
             <li>Age: {featuredPup.age}</li>
             <li>Email: {featuredPup.email}</li>
           </ul>
@@ -35,7 +35,6 @@ function App() {
         </div>
       )}
     </div>
-
     
   )
     
