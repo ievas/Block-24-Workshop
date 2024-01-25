@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import {puppyList} from './data.js'
+import puppyIcon from './assets/icons8-dog-64.png'
 
 
 function App() {
@@ -23,9 +24,10 @@ function App() {
         })
       }
       {featPupId && (
-        <div>
+        <div className="card">
           <h2>{featuredPup.name}</h2>
           <ul>
+            <li><img src={puppyIcon} alt="dog icon"/></li>
             <li>Age: {featuredPup.age}</li>
             <li>Email: {featuredPup.email}</li>
           </ul>
